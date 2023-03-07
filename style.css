@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+/*https://www.youtube.com/watch?v=zKUjDQkofSo&t=0s*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #292928;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+section{
+    background-color: beige;
+    padding: 10px;
+    width: 450px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.input_full{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    width: 90%;
+    padding: 10px 5px;
+    height: 39px;
+    border: 1px solid #b3b2b2;
+    outline: 0;
+    border-radius: 6px 0 0 6px;
+}
+button{
+    width: 10%;
+    font-size: 20px;
+    height: 39px;
+    border:0;
+    background-color: #292928;
+    color: #fffffe;
+    border-radius: 0 6px 6px 0;
+}
+.paragraphe_style{
+    margin: 10px 0;
+    padding: 10ps 0;
+    padding-left: 5px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #04c745;
+    word-break: break-all;
+    cursor: pointer;
+    animation: anime 0.5s linear;
+}
+.paragraphe_style:last-child{
+    margin-bottom: 0;
+}
+@keyframes anime {
+    from {
+        transform: translateY(50px);
+    }
+}
+
+.paragraph_click{
+    background-color: #e91744;
+    text-decoration: line-through;
+}
